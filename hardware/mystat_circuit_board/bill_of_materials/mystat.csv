@@ -1,0 +1,53 @@
+References,Manufacturer,Part Number,Value,Footprint,Quantity,Price(each),Source
+"C1, C22",KEMET,C0805C103J5GACTU,10 nF,C_0805_2012Metric,2,0.76,Digikey ‎399-7992-1-ND‎
+C16,Samsung Electro-Mechanics,CL32B106KBJNNWE,10 µF,C_1210_3225Metric,1,0.66,Digikey ‎1276-3388-1-ND‎
+"C19, C20, C33, C38",Yageo,CC0805JRNPO9BN120,12 pF,C_0805_2012Metric,4,0.11,Digikey ‎311-1100-1-ND‎
+"C2, C10, C11, C12, C13, C14, C15, C17, C18, C23, C25, C26, C27, C28, C29, C30, C31, C32, C34, C35, C36, C37",AVX Corporation,08055C104KAT2A,0.1 µF,C_0805_2012Metric,22,0.15,Digikey ‎478-1395-1-ND
+C21,Murata Electronics North America,GRM2165C1H332JA01D,3.3 nF,C_0805_2012Metric,1,0.25,Digikey ‎490-1632-1-ND‎
+C24,Yageo,CC0805KRX7R9BB472,4700 pF,C_0805_2012Metric,1,0.11,Digikey ‎311-1133-1-ND‎
+C3,Panasonic Electronic Components,EEE-FT1V470AR,47 μF,EEE-FT1V470AR,1,0.5,Digikey ‎PCE5014CT-ND‎
+"C4, C7",Samsung Electro-Mechanics,CL31B475KBHNNNE,4.7 μF,C_1206_3216Metric,2,0.36,Digikey ‎1276-2789-1-ND‎
+"C5, C6, C8, C9, C39",TDK Corporation,C2012X7R1V475K125AC,4.7 µF,C_0805_2012Metric,5,0.73,Digikey ‎445-7555-1-ND‎
+FB1,Vishay Dale,ILBB0805ER320V,Ferrite_Bead,C_0805_2012Metric,1,0.1,Digikey 541-2296-1-ND‎ 
+J1,CUI Inc.,PJ-063AH,PJ-063AH,CUI_PJ-063AH,1,1.36,‎Digikey CP-063AH-ND‎
+J2,TE Connectivity AMP Connectors,2173157-3,2173157-3,CONN_2173157-3,1,3.39,Digikey A124356CT-ND‎
+J3,CUI Inc.,SJ1-42534-SMT-TR,SJ1-42534-SMT,CUI_SJ1-42534-SMT,1,1.2,Digikey CP1-42534SJCT-ND
+"K1, K2, K3, K4, K5",Coto Technology,9011-05-11,9011-05-11,relay_9011-05-11,5,7.97,Digikey 306-1131-ND‎
+P1,Sullins Connector Solutions,PRPC006SAAN-RC,ICSP,PinHeader_1x06_P2.54mm_Vertical,1,0.19,Digikey S1011EC-06-ND‎
+R1,Panasonic Electronic Components,ERJ-6ENF6042V,60.4 kΩ,R_0805_2012Metric,1,0.1,Digikey P60.4KCCT-ND‎
+R10,Panasonic Electronic Components,ERJ-6ENF27R0V,27R,R_0805_2012Metric,1,0.1,Digikey P27.0CCT-ND‎
+"R12, R14",Panasonic Electronic Components,ERA-6AEB4023V,402k*,R_0805_2012Metric,2,0.36,Digikey P402KDACT-ND‎
+"R13, R15, R17, R18, R20, R22",Panasonic Electronic Components,ERA-6AEB753V,75k*,R_0805_2012Metric,6,0.36,Digikey P75KDACT-ND
+R16,Panasonic Electronic Components,ERA-6AEB104V,100k*,R_0805_2012Metric,1,0.36,Digikey P100KDACT-ND
+R19,Panasonic Electronic Components,ERA-6AEB102V,1k*,R_0805_2012Metric,1,0.36,Digikey P18KDACT-ND
+R2,Panasonic Electronic Components,ERA-6AEB8871V,8.87 kΩ*,R_0805_2012Metric,1,0.36,Digikey P8.87KDACT-ND‎
+R21,Panasonic Electronic Components,ERA-6AEB183V,18k*,R_0805_2012Metric,1,0.36,Digikey P18KDACT-ND
+R23,Panasonic Electronic Components,ERA-6AEB202V,2k*,R_0805_2012Metric,1,0.36,Digikey P2.0KDACT-ND‎
+R24,TE Connectivity Passive Product,2-1625868-7,10R*,R_0805_2012Metric,1,0.53,Digikey A110351CT-ND
+R25,Susumu,RL1220S-1R0-F,1R*,R_0805_2012Metric,1,0.33,Digikey RL12S1.00FCT-ND
+R3,Panasonic Electronic Components,ERJ-PB6B8872V,88.7 kΩ*,R_0805_2012Metric,1,0.36,Digikey P20816CT-ND
+R4,Panasonic Electronic Components,ERJ-6ENF1783V,178 kΩ,R_0805_2012Metric,1,0.1,Digikey ‎P178KCCT-ND‎
+R5,Panasonic Electronic Components,ERJ-PB6B2943V,294 kΩ*,R_0805_2012Metric,1,0.36,Digikey P20873CT-ND‎
+R6,Panasonic Electronic Components,ERJ-PB6B1743V,174 kΩ*,R_0805_2012Metric,1,0.36,Digikey P20847CT-ND‎
+"R7, R9",Yageo,RC0805FR-071KL,1k,R_0805_2012Metric,2,0.1,Digikey 311-1.00KCRCT-ND
+"R8, R11",Yageo,RC0805FR-0710KL,10k,R_0805_2012Metric,2,0.1,Digikey 311-10.0KCRCT-ND‎
+"U10, U13, U14, U15, U16, U17",Texas Instruments,OPA192IDBVR,OPA192,OPA192,6,2.68,Digikey 296-42105-1-ND‎
+U11,Texas Instruments,BUF634AIDR,BUF634A,SOIC-8,1,2.92,Digikey 296-53619-1-ND‎
+U12,Analog Devices Inc.,ADG1419BRMZ-REEL7,ADG1419,MSOP-8_3x3mm_P0.65mm,1,4.53,Digikey ADG1419BRMZ-REEL7CT-ND‎
+U2,Linear Technology/Analog Devices,LTM8045IY,LTM8045,BGA-40_6.25x11.25mm_Layout5x8_P1.25mm,1,21.07,Digikey LTM8045IY-ND‎
+U3,Analog Devices Inc.,ADP7182AUJZ-R7,ADP7182AUJZ-R7,TSOT-23-5,1,3.71,Digikey ADP7182AUJZ-R7CT-ND‎
+U4,Analog Devices Inc.,ADP7118AUJZ-5.0-R7,ADP7118AUJZ-5.0-R7,TSOT-23-5,1,2.27,Digikey ADP7118AUJZ-5.0-R7CT-ND
+U5,Microchip Technology,PIC16F1459-I/SO,PIC16F1459,SOIC-20W,1,1.77,Digikey PIC16F1459-I/SO-ND‎
+U6,Analog Devices Inc.,ADR421ARZ,ADR421,SOIC-8,1,6.81,Digikey ‎ADR421ARZ-REEL7CT-ND
+"U7, U8",Microchip Technology,MCP3550-60E/SN,MCP3550-60,SOIC-8,2,3.98,Digikey MCP3550-60E/SN-ND‎
+U9,Texas Instruments,DAC1220E,DAC1220,DAC1220,1,19.8,Digikey DAC1220E-ND‎
+X1,ECS Inc.,ECS-25-S-1X,2.5 MHz,Crystal_HC49-U_Vertical,1,1.13,Digikey X1003-ND‎
+E1,Tensility International,10-00340,N.A.,N.A.,1,4.44,Digikey ‎839-1035-ND
+E2,Cinch Connectivity Solutions Johnson,105-0302-001,N.A.,N.A.,1,1.14,Digikey J103-ND
+E3,Cinch Connectivity Solutions Johnson,105-0303-001,N.A.,N.A.,1,1.28,Digikey J104-ND
+E4,Cinch Connectivity Solutions Johnson,105-0304-001,N.A.,N.A.,1,1.17,Digikey J301-ND
+E5,Cinch Connectivity Solutions Johnson,105-0301-001,N.A.,N.A.,1,1.17,Digikey J300-ND
+E6-E9,Cal Test Electronics,CT3759-0,N.A.,N.A.,4,2,Digikey CT3759-0-ND
+E10,CUI Inc.,SDI30-15-U-P5 ,N.A.,N.A.,1,17.88,Digikey 102-4106-ND
+E11,Hammond Manufacturing,1455B802,N.A.,N.A.,1,9.6,Digikey HM1117-ND
+E12,CUI Devices,AC-C13 NA,N.A.,N.A.,1,3.76,Digikey T1249-C13-NA-ND
