@@ -3,7 +3,7 @@ M48
 ; FORMAT={-:-/ absolute / metric / decimal}
 ; #@! TF.CreationDate,2024-05-03T23:23:01-04:00
 ; #@! TF.GenerationSoftware,Kicad,Pcbnew,6.0.11+dfsg-1
-; #@! TF.FileFunction,NonPlated,1,2,NPTH
+; #@! TF.FileFunction,Plated,1,2,PTH
 FMAT,2
 METRIC
 %
