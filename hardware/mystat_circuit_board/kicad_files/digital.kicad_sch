@@ -6,7 +6,7 @@
 
   (title_block
     (title "MYSTAT")
-    (date "2024-05-04")
+    (date "2024-05-07")
     (rev "1")
     (company "USB-Controlled Potentiostat/Galvanostat")
     (comment 1 "Based on TDSTATv3 designed by Thomas Dobbelaere")
