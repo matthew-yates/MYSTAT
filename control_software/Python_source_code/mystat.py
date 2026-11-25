@@ -648,12 +648,21 @@ def choose_file(file_entry_field, questionstring):
 def emergency_shutdown():
     '''Turns the cell off if the current is above 220 mA'''
     global current, state
-    if np.absolute(current) > 220.:
-        if state != States.Idle:
-            preview_cancel_button.show()
-            state = States.Idle
-        set_control_mode(True)
-        set_output(1,0.)
+    if abs(current) > 220.:
+        # Cleanly stop any active measurement (closes files, turns cell off)
+        if state == States.Measuring_CV:
+            cv_stop(interrupted=True)
+        elif state == States.Measuring_CD:
+            cd_stop(interrupted=True)
+        elif state == States.Measuring_Rate:
+            rate_stop(interrupted=True)
+        else:
+            set_cell_status(False)
+            if state != States.Idle and state != States.NotConnected:
+                state = States.Idle
+                preview_cancel_button.show()
+
+        set_output(1, 0.)  # force current to 0
         QtGui.QMessageBox.critical(mainwidget, "Warning!","The current has exceeded its maximum value of 200 mA.")
         
 def toggle_logging(checkbox_state):
