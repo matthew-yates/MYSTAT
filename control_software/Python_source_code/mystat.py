@@ -599,12 +599,13 @@ def read_potential_current():
             current = (raw_current-current_offset)/2097152.*0.0025/(shunt_calibration[currentrange])
         potential_monitor.setText(potential_to_string(potential))
         current_monitor.setText(current_to_string(currentrange, current))
-        if logging_enabled: # If enabled, all measurements are appended to an output file (even in idle mode)
+        if logging_enabled:
             try:
-                print("%.2f\t%e\t%e"%(time_of_last_adcread,potential,current*1e-3),file=open(hardware_log_filename.text(),'a',1)) # Output tab-separated data containing time (in s), potential (in V), and current (in A)
-            except:
+                with open(hardware_log_filename.text(), 'a', 1) as f:
+                    print("%.2f\t%e\t%e" % (time_of_last_adcread, potential, current * 1e-3), file=f)
+            except Exception:
                 QtGui.QMessageBox.critical(mainwidget, "Logging error!", "Logging error!")
-                hardware_log_checkbox.setChecked(False) # Disable logging in case of file errors
+                hardware_log_checkbox.setChecked(False)
 
 def idle_init():
     """Perform some necessary initialization before entering the Idle state."""
