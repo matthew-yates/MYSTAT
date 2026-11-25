@@ -638,7 +638,11 @@ def update_live_graph():
 def choose_file(file_entry_field, questionstring):
     """Open a file dialog and write the path of the selected file to a given entry field."""
     filedialog = QtGui.QFileDialog()
-    file_entry_field.setText(filedialog.getSaveFileName(mainwidget, questionstring, "", "ASCII data (*.txt)",options=QtGui.QFileDialog.DontConfirmOverwrite))
+    result = filedialog.getSaveFileName(mainwidget, questionstring, "", "ASCII data (*.txt)",options=QtGui.QFileDialog.DontConfirmOverwrite)
+    # PyQt4 returns a string; PyQt5/PySide2 returns (path, filter)
+    path = result[0] if isinstance(result, (tuple, list)) else result
+    if path:
+        file_entry_field.setText(path)
 
 def emergency_shutdown():
     '''Turns the cell off if the current is above 220 mA'''
