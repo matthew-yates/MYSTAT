@@ -1005,7 +1005,7 @@ def rate_getparams():
         rate_parameters['crates'] = [float(x) for x in rate_crates_entry.text().split(",")]
         rate_parameters['currents'] = [rate_parameters['one_c_current']*rc for rc in rate_parameters['crates']]
         rate_parameters['numcycles'] = int(rate_numcycles_entry.text())
-        rate_parameters['numsamples'] = int(cd_numsamples_entry.text())
+        #rate_parameters['numsamples'] = int(cd_numsamples_entry.text())
         rate_parameters['filename'] = str(rate_file_entry.text())
         return True
     except ValueError:
