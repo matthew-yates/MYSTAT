@@ -12,14 +12,20 @@ pyinstaller --onefile \
   --exclude-module PyQt6 \
   --exclude-module PySide6 \
   --exclude-module PySide2 \
-  --collect-submodules OpenGL \
-  --hidden-import OpenGL.platform.glx \
-  --hidden-import OpenGL.platform.egl \
   --exclude-module IPython \
   --exclude-module jupyter \
   --exclude-module ipykernel \
   --exclude-module numba \
   --exclude-module sphinx \
   --exclude-module matplotlib \
+  --exclude-module tkinter \
+  --collect-submodules OpenGL \
+  --hidden-import OpenGL.platform.glx \
+  --exclude-module scipy.stats \
+  --exclude-module scipy.sparse \
+  --exclude-module scipy.optimize \
+  --exclude-module scipy.ndimage \
+  --exclude-module scipy.special \
+  --exclude-module scipy.linalg \
   mystat.py
 ```
