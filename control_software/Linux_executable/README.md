@@ -22,10 +22,6 @@ pyinstaller --onefile \
   --collect-submodules OpenGL \
   --hidden-import OpenGL.platform.glx \
   --exclude-module scipy.stats \
-  --exclude-module scipy.sparse \
-  --exclude-module scipy.optimize \
   --exclude-module scipy.ndimage \
-  --exclude-module scipy.special \
-  --exclude-module scipy.linalg \
   mystat.py
 ```
